@@ -1,0 +1,21 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but the file format allows editing it anyway.
+
+[application]
+
+config/name="QCom"
+config/description="Quantum Command — top-down arcade shooter"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=600
+window/size/resizable=false
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
